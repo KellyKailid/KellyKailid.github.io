@@ -35,14 +35,14 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Kelly Dai
-  image             : https://i.pinimg.com/originals/67/96/4f/67964f1dc49c6765222ddadee023140f.jpg
+  image             : assets/pngs/IMG_7559.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : jingyud2@illinois.edu
 #  facebook          : your_username
   github            : KellyKailid # JPN
 # gitlab            : your_username
- #instagram         : kaili_d511
+  instagram         : kaili_d511
 # kaggle            : your_username
 #linkedin          : Jingyu Dai
 #  medium            : your_username
