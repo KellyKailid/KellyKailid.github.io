@@ -46,6 +46,6 @@ I also chose circle as my mark and default colormap with the same reason. I chan
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/KellyKailid/KellyKailid.github.io/blob/master/python_notebooks/IS445_HW10.ipynb" text="The Analysis" %}
 </div>
 
