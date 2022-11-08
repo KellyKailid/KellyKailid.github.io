@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Kelly Dai
 description         : >-
-                      I am definitely not a corgi!
+                      I code with Ctrl+C and Ctrl+V ฅʕ•̫͡•
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : KellyKailid               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -34,13 +34,13 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
-  image             : https://dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg
+  name              : Kelly Dai
+  image             : file:///Users/daijingyu/Desktop/IMG_7559.JPG
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : jingyud2@illinois.edu
 #  facebook          : your_username
-  github            : jnaiman # JPN
+  github            : KellyKailid # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
