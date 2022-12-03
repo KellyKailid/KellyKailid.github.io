@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IS445 Final Project &amp;#9992;&amp;#65039;">
+  <meta property="og:description" content="This is a data visualization project using dataset from San Francisco airport.">
+  <meta property="og:image" content="assets/pngs/airport.png">
+
+  <title>IS445 Final Project &amp;#9992;&amp;#65039;</title>
+  <meta name="description" content="This is a data visualization project using dataset from San Francisco airport.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Kelly Dai</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="-san-francisco-airport-air-traffic-visualization"><center> San Francisco Airport Air Traffic Visualization</center></h1>
+<p><br /></p>
+<h4 id="-kelly-dai-128051"><center> Kelly Dai &#128051;</center></h4>
+<p><br />
+<img src="https://www.wlns.com/wp-content/uploads/sites/50/2022/07/SFOGettyImages-1161812951.jpg" alt="avatar" /></p>
+
+<p>San Francisco International Airport is one of the largest and busiest airport in the world. This visualization aims to explore the air traffic condition there. This project uses two datasets from the City of San Francisco, including landings statistics and passenger statistics. These datasets include data from 2005 to 2022. I only care about the latest information, so I only use data after 2020 for this project.</p>
+
+<h2 id="interactive-visualization"><center>Interactive Visualization</center></h2>
+<p><br /></p>
+<center><vegachart schema-url="/assets/json/FinalProject_interactive_plot.json" style="width: 100%"></vegachart></center>
+<p><br /></p>
+
+<p>This visualization is made based on the landings statistics. It is an interactive visualization that has two parts, a heat map and a pie chart. The left part is a heat map. The x-axis is ‘total landed weight’ and the y-axis is ‘geographic region’. Each rectangle represents that there are routes that carry these amount of cargo in the given region. The color of the rectangle shows the amount of records in the given area. Darker color means more records. The right part is the pie chart. The size of each section depends on the number of the aircraft body type and I colored the chart based on different types. The size of each section shows the number of each types. If you select a specific rectangle on the heat map, the corresponding pie chart will appear on the right part.</p>
+
+<h2 id="first-contextual-visualization"><center>First Contextual Visualization</center></h2>
+<p><br /></p>
+<center><vegachart schema-url="/assets/json/FinalProject_first_plot.json" style="width: 100%"></vegachart></center>
+<p><br />
+The contextual visualizations are made based on the passanger statistics. From the first graph, we can find out that there are more records about flights in the US and these flights have more landed weight, so I assume that US flights also have more passengers. Therefore, I made this histogram to show the total passenger in different region since 2020.</p>
+
+<h2 id="second-contextual-visualization"><center>Second Contextual Visualization</center></h2>
+<p><br /></p>
+<center><vegachart schema-url="/assets/json/FinalProject_second_plot.json" style="width: 100%"></vegachart></center>
+<p><br />
+The previous graph reflects that there are much more passengers fly within the US. For this visualization, I want to make a more detailed graph than can reflect the change of the number of passengers. Therefore, I made a line graph that shows the number of passengers every month in different regions. The color of the line represnts different regions.</p>
+
+<!-- these are written in a combo of html and liquid -->
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/bfro_reports_fall2022.csv">
+  The Data
+</a>
+</div>
+
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/KellyKailid/KellyKailid.github.io/blob/master/python_notebooks/IS445_HW10.ipynb">
+  The Analysis
+</a>
+</div>
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Kelly Dai</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:jingyud2@illinois.edu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/KellyKailid"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/kaili_d511"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>
