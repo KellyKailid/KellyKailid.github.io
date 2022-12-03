@@ -40,10 +40,10 @@ The previous graph reflects that there are much more passengers fly within the U
 
 <!-- these are written in a combo of html and liquid --> 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/bfro_reports_fall2022.csv" text="The Data" %}
+{% include elements/button.html link="https://github.com/KellyKailid/KellyKailid.github.io/tree/master/python_notebooks/IS445_Final_Project" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/KellyKailid/KellyKailid.github.io/blob/master/python_notebooks/IS445_HW10.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/KellyKailid/KellyKailid.github.io/blob/master/python_notebooks/IS445_Final_Project/IS445_FinalProject_Part3.ipynb" text="The Analysis" %}
 </div>
 
